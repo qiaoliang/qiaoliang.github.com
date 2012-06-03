@@ -14,12 +14,12 @@
 
   
   <entry>
-    <title type="html"><![CDATA[hello world]]></title>
+    <title type="html"><![CDATA[持续交付成熟度模型更新，新版本v1.2发布]]></title>
     <link href="http://qiaoliang.github.com/blog/hello-world.html"/>
     <updated>2012-06-03T22:05:00+08:00</updated>
     <id>http://qiaoliang.github.com/blog/hello-world</id>
     <content type="html"><![CDATA[<h2>持续交付成熟度模型更新，新版本v1.2发布</h2>
-<p>《持续交付》一书中提供的“持续交付成熟度模型”是1.0版本。%br/ 这是经过再次调整的改进版，更具有指导性和可操作性。</p>
+<p>《持续交付》一书中提供的“持续交付成熟度模型”是1.0版本。这是经过再次调整的改进版，更具有指导性和可操作性。</p>
 <p>使用说明：建议使用该模型进行现状分析，发现改进点，不建议将其作为绩效衡量的标准。</p>
 <p>共有七个维度，它们分别是：</p>
 <ol>
