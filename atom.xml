@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[KISS]]></title>
+  <link href="http://qiaoliang.github.com/atom.xml" rel="self"/>
+  <link href="http://qiaoliang.github.com/"/>
+  <updated>2012-01-20T00:00:00+08:00</updated>
+  <id>http://qiaoliang.github.com/</id>
+  <author>
+    <name><![CDATA[Qiao Liang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[hello world]]></title>
+    <link href="http://qiaoliang.github.com/blog/hello-world.html"/>
+    <updated>2012-06-03T22:05:00+08:00</updated>
+    <id>http://qiaoliang.github.com/blog/hello-world</id>
+    <content type="html"><![CDATA[<h2>持续交付成熟度模型更新，新版本v1.2发布</h2>
+<p>《持续交付》一书中提供的“持续交付成熟度模型”是1.0版本。%br/ 这是经过再次调整的改进版，更具有指导性和可操作性。</p>
+<p>使用说明：建议使用该模型进行现状分析，发现改进点，不建议将其作为绩效衡量的标准。</p>
+<p>共有七个维度，它们分别是：</p>
+<ol>
+<li><em>持续集成</em> （Continuous Integration)</li>
+
+<li><em>环境与部署</em>（Environments and Deployments）</li>
+
+<li><em>可视化与可追踪性</em>（Visibility and Traceability）</li>
+
+<li><em>测试</em>（Testing）</li>
+
+<li><em>（Data Management）</em></li>
+</ol>
+<p>每个维度又分成五个级别，它们分别是：</p>
+<p># 一级：<em>退化级</em>（Regressive） # 二级：<em>可重复级</em>(Repeatable) # 三级：<em>可定义级</em> # 四级：<em>可定量级</em>（Quantitatively managed） # 五级：<em>改进级</em>（Optimizing）</p>
+<p>更详细内容在</p>
+]]></content>
+  </entry>
+  
+</feed>
