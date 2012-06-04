@@ -1,16 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://qiaoliang.github.com/blog/hello-world.html</loc>
-        <lastmod>2012-06-03T22:48:57+08:00</lastmod>
+        <loc>http://qiaoliang.github.com/blog/CDMM.html</loc>
+        <lastmod>2012-06-04T21:18:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://qiaoliang.github.com/blog/vagrant-jenkins.html</loc>
+        <lastmod>2012-06-04T17:35:57+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://qiaoliang.github.com/blog/veewee-vagrant.html</loc>
+        <lastmod>2012-06-04T21:16:02+08:00</lastmod>
     </url>
     <url>
         <loc>http://qiaoliang.github.com/blog/archives/</loc>
-        <lastmod>2012-06-03T22:48:57+08:00</lastmod>
+        <lastmod>2012-06-04T21:18:00+08:00</lastmod>
     </url>
     <url>
         <loc>http://qiaoliang.github.com/</loc>
-        <lastmod>2012-06-03T22:48:57+08:00</lastmod>
+        <lastmod>2012-06-04T21:18:00+08:00</lastmod>
     </url>
     <url>
         <loc>http://qiaoliang.github.com/404.html</loc>

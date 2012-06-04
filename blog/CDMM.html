@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>持续交付成熟度模型更新，新版本v1.2发布 - KISS</title>
+  <title>持续交付成熟度模型更新，新版本v1.2发布 - 闲庭信步(KISS)</title>
   
   <meta name="description" content="手把青秧插满田，低头便见水中天。身心清净方为道，退步原来是向前。/ 初学者眼中凡事皆有可能，行家心中可行之途无多" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -37,7 +37,7 @@ html,body{height:100%;overflow:hidden}
   </ul>
 </nav>
 
-<header class="my-nickname"><em title="Programmer">Qiao Liang</em></header>
+<header class="my-nickname"><em title="Programmer">闲庭信步</em></header>
 
 <section class="main-wrap clearfix">
   <article role="article">
@@ -61,23 +61,29 @@ html,body{height:100%;overflow:hidden}
   
 
 
-<time datetime="2012-06-03T22:05:00+08:00" pubdate="pubdate" data-updated="true">2012-06-03 Sun</time>
+<time datetime="2011-10-17T22:05:00+08:00" pubdate="pubdate" data-updated="true">2011-10-17 Mon</time>
       
 
+<span class="tags">
+  Tags:
+  
+    <a href='/blog/tags/chi-xu-ji-cheng/'>持续集成</a>, <a href='/blog/tags/chi-xu-jiao-fu/'>持续交付</a>, <a href='/blog/tags/cheng-shou-du/'>成熟度</a>
+  
+</span>
+
       <span class="share-to-weibo">
-        <a href="javascript:void(0)" onclick="window.open('http://service.weibo.com/share/share.php?appkey=3197495784&amp;ralateUid=2036045341&amp;title=持续交付成熟度模型更新，新版本v1.2发布 - &amp;url=http://qiaoliang.github.com/blog/hello-world.html', null, 'width=615,height=505,toolbar=0,status=0')" class="sina-weibo" title="分享到新浪微博"></a>
+        <a href="javascript:void(0)" onclick="window.open('http://service.weibo.com/share/share.php?appkey=3197495784&amp;ralateUid=2036045341&amp;title=持续交付成熟度模型更新，新版本v1.2发布 - &amp;url=http://qiaoliang.github.com/blog/CDMM.html', null, 'width=615,height=505,toolbar=0,status=0')" class="sina-weibo" title="分享到新浪微博"></a>
 
-        <a href="javascript:void(0)" onclick="window.open('http://share.v.t.qq.com/index.php?c=share&amp;a=index&amp;appkey=&amp;title=持续交付成熟度模型更新，新版本v1.2发布 - &amp;url=http://qiaoliang.github.com/blog/hello-world.html', null, 'width=700,height=680,toolbar=0,status=0')" class="tencent-weibo" title="分享到腾讯微博"></a>
+        <a href="javascript:void(0)" onclick="window.open('http://share.v.t.qq.com/index.php?c=share&amp;a=index&amp;appkey=&amp;title=持续交付成熟度模型更新，新版本v1.2发布 - &amp;url=http://qiaoliang.github.com/blog/CDMM.html', null, 'width=700,height=680,toolbar=0,status=0')" class="tencent-weibo" title="分享到腾讯微博"></a>
 
-        <a href="javascript:void(0)" onclick="window.open('https://twitter.com/intent/tweet?text=持续交付成熟度模型更新，新版本v1.2发布 - http://qiaoliang.github.com/blog/hello-world.html', null, 'width=600,height=300,toolbar=0,status=0')" class="twitter" title="分享到Twitter"></a>
+        <a href="javascript:void(0)" onclick="window.open('https://twitter.com/intent/tweet?text=持续交付成熟度模型更新，新版本v1.2发布 - http://qiaoliang.github.com/blog/CDMM.html', null, 'width=600,height=300,toolbar=0,status=0')" class="twitter" title="分享到Twitter"></a>
       </span>
     </p>
   
 </header>
 
 
-  <div class="entry-content typo"><h2>持续交付成熟度模型更新，新版本v1.2发布</h2>
-<p>《持续交付》一书中提供的“持续交付成熟度模型”是1.0版本。这是经过再次调整的改进版，更具有指导性和可操作性。</p>
+  <div class="entry-content typo"><p>《持续交付》一书中提供的“持续交付成熟度模型”是1.0版本。这是经过再次调整的改进版，更具有指导性和可操作性。</p>
 <p>使用说明：建议使用该模型进行现状分析，发现改进点，不建议将其作为绩效衡量的标准。</p>
 <p>共有七个维度，它们分别是：</p>
 <ol>
@@ -89,17 +95,34 @@ html,body{height:100%;overflow:hidden}
 
 <li><em>测试</em>（Testing）</li>
 
-<li><em>（Data Management）</em></li>
+<li><em>数据管理</em>（Data Management）</li>
+
+<li><em>配置管理</em>（Configuration Management）</li>
+
+<li><em>组织协调性</em>（Organisational Alignment）</li>
 </ol>
 <p>每个维度又分成五个级别，它们分别是：</p>
-<p># 一级：<em>退化级</em>（Regressive） # 二级：<em>可重复级</em>(Repeatable) # 三级：<em>可定义级</em> # 四级：<em>可定量级</em>（Quantitatively managed） # 五级：<em>改进级</em>（Optimizing）</p>
-<p>更详细内容在</p>
+<ol>
+<li><em>退化级</em>（Regressive）</li>
+
+<li><em>可重复级</em>(Repeatable)</li>
+
+<li><em>可定义级</em>(Definable)</li>
+
+<li><em>可定量级</em>（Quantitatively managed）</li>
+
+<li><em>改进级</em>（Optimizing）</li>
+</ol>
+<br />
+<a href='http://www.continuousdelivery.info/index.php/2011/10/17/cd-v12'>更详细内容.</a>
 </div>
 
 
     <footer>
       <p class="meta neighbor clearfix">
         
+        
+          <a href="/blog/vagrant-jenkins.html" class="float-r" title="Next Post: 使用vagrant和Jenkins来管理虚拟机的技巧">使用vagrant和Jenkins来管理虚拟机的技巧 &raquo;</a>
         
       </p>
     </footer>
@@ -109,7 +132,7 @@ html,body{height:100%;overflow:hidden}
 </section>
 
 <footer class="footer">
-  &copy;2012 Qiao Liang
+  &copy;2012 闲庭信步
   &nbsp;-&nbsp;
   Powered by <a href="http://octopress.org" target="_blank">Octopress</a>
 </footer>
